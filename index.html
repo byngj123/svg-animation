@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="skrollr-master/src/skrollr.js"></script>
+<script type="text/javascript">
+    $(function(){
+skrollr.init();
+});
+</script>
+
+    <style>
+        svg {
+            width:360px;
+            height:160px;
+            position: fixed;
+        }
+        path {
+            stroke-dasharray:2000;
+            fill:none;
+            stroke:#ED003B;
+            stroke-width:4;
+        }
+        #block{
+            height: 1500px;
+            width:500px;
+            background: #0000ff;
+        }
+    </style>
+</head>
+<body>
+<!--<div id="block"></div>-->
+<svg>
+<path            data-0="stroke-dashoffset:5000;"
+                 data-2000="stroke-dashoffset:0;"
+                 d="M2,2v46.512L48.512,2v46.512L95.023
+                 ,2v46.512L141.535,2v46.512L188.047
+                 ,2v46.512L234.559,2v46.512l45.
+                 349-45.349
+                 c0,0,0,32.558,0,76.744s17.
+                 442,77.907,77.907,77.907"/>
+</svg>
+</body>
+</html>
